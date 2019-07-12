@@ -17,6 +17,12 @@
             <xpath expr="//field[@name='category_print_id']" position="attributes">
 		        <attribute name="options">{'no_create': True}</attribute>
 		    </xpath>
+			<xpath expr="//field[@name='country_id']" position="attributes">
+		        <attribute name="options">{'no_create': True}</attribute>
+		    </xpath>
+			<xpath expr="//field[@name='department_id']" position="attributes">
+		        <attribute name="options">{'no_create': True}</attribute>
+		    </xpath>
 		</field>
 	</record>
 

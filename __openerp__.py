@@ -5,7 +5,7 @@
     'description': """
         Empêche la création rapide de nouvelles fiches depuis diverses vues :
             - création d'article depuis le formulaire d'impression d'étiquettes
-            - création de catégorie interne, catégorie d'étiquette, unité de mesure/achat, et fournisseur depuis le formulaire d'une fiche article
+            - création de catégorie interne, catégorie d'étiquette, unité de mesure/achat, fournisseur, pays et département d'origine depuis le formulaire d'une fiche article
             - création de modèle d'étiquette depuis le formulaire d'une fiche d'étiquette
             - création de fournisseur depuis le formulaire de bon de commande
         (Complère le module 'Coop Limit Creation of Product' de La Louve)
@@ -22,6 +22,7 @@
         'product',
         'product_to_print',
         'purchase',
+        'coop_default_pricetag',
     ],
     # always loaded
     'data': [
