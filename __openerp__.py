@@ -1,7 +1,7 @@
 # coding: utf-8
 {
-    'name': "SP Limit Creation of Item",
-    'summary': "Supercoop Limit Creation of Item",
+    'name': "SP Limit Creation of Items",
+    'summary': "Supercoop - Limit creation of items in various views with the attribute no_create",
     'description': """
         Empêche la création rapide de nouvelles fiches depuis diverses vues :
             - création d'article depuis le formulaire d'impression d'étiquettes
@@ -9,7 +9,7 @@
             - création de modèle d'étiquette depuis le formulaire d'une fiche d'étiquette
             - création de fournisseur depuis le formulaire de bon de commande
             - création de fournisseur et catégorie interne depuis la liste de fournisseurs d'un article
-        (Complère le module 'Coop Limit Creation of Product' de La Louve)
+        (Complète le module 'Coop Limit Creation of Product' de La Louve)
     """,
     'author': "Supercoop",
     'website': "http://www.supercoop.fr",
