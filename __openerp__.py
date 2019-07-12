@@ -8,6 +8,7 @@
             - création de catégorie interne, catégorie d'étiquette, unité de mesure/achat, fournisseur, pays et département d'origine depuis le formulaire d'une fiche article
             - création de modèle d'étiquette depuis le formulaire d'une fiche d'étiquette
             - création de fournisseur depuis le formulaire de bon de commande
+            - création de fournisseur et catégorie interne depuis la liste de fournisseurs d'un article
         (Complère le module 'Coop Limit Creation of Product' de La Louve)
     """,
     'author': "Supercoop",
@@ -23,6 +24,7 @@
         'product_to_print',
         'purchase',
         'coop_default_pricetag',
+        'coop_purchase',
     ],
     # always loaded
     'data': [
