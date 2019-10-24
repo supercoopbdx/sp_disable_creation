@@ -5,7 +5,7 @@
     'description': """
         Empêche la création rapide de nouvelles fiches depuis diverses vues :
             - création d'article depuis le formulaire d'impression d'étiquettes
-            - création de catégorie interne, catégorie d'étiquette, unité de mesure/achat, fournisseur, pays et département d'origine depuis le formulaire d'une fiche article
+            - création de catégorie interne, catégorie d'étiquette, unité de mesure/achat, fournisseur, pays et département d'origine depuis le formulaire d'une fiche article et variante d'article
             - création de modèle d'étiquette depuis le formulaire d'une fiche d'étiquette
             - création de fournisseur depuis le formulaire de bon de commande
             - création de fournisseur et catégorie interne depuis la liste de fournisseurs d'un article
@@ -17,7 +17,7 @@
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
     # for the full list
     'category': 'Supercoop',
-    'version': '9.0.1.0.0',
+    'version': '9.0.1.0.1',
     # any module necessary for this one to work correctly
     'depends': [
         'product',
@@ -31,6 +31,7 @@
         'views/product_pricetag_wizard.xml',
         'views/product_category_print.xml',
         'views/product_template.xml',
+        'views/product_product.xml',
         'views/product_supplierinfo.xml',
         'views/purchase_order.xml',
     ],
